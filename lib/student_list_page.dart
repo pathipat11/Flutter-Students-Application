@@ -23,7 +23,7 @@ class StudentListPage extends StatelessWidget {
               Map<String, dynamic> data = doc.data() as Map<String, dynamic>;
               return Card(
                 color: Colors.grey[900],
-                margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                // margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 child: ListTile(
                   leading: data['photoUrl'] != null
                       ? CircleAvatar(backgroundImage: NetworkImage(data['photoUrl']))
